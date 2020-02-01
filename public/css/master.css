@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+    border: solid black 2px;
+}
+
+.col-1 {
+    flex: 1;
+    border: solid red 2px;
+}
+
+.col-2 {
+    flex: 2;
+    border: solid blue 2px;
+}
+
+.col-3 {
+    flex: 1;
+    border: solid green 2px;
+}
+
+div > pre {
+    margin: 20px 40px;
+    background-color: #dddddd;
+}
+
+div > pre > #user {
+    margin: 0 40px;
+    font-size: 14px;
+}
+
+div > pre > #timestamp {
+    margin: 0 40px;
+    font-size: 12px;
+}
+
+div > pre > #post {
+    margin: 0 40px;
+    font-size: 24px;
+}
+
