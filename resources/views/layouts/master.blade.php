@@ -6,11 +6,12 @@
 
 <body>
 <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Login</a></li>
     @if(auth()->check())
-        <li><a>{{ auth()->user()->username }}</a></li>
+        <li><a>Hi {{ auth()->user()->username }}</a></li>
+        <li><a href="/logout">Logout</a></li>
+    @else
+        <li><a href="/login">Login</a></li>
+        <li><a href="register">Register</a></li>
     @endif
 </ul>
 
