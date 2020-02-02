@@ -15,6 +15,11 @@
         </div>
 
         <div class="form-group">
+            <label for="password_confirmation">Password Confirmation:</label>
+            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation">
+        </div>
+
+        <div class="form-group">
             <button style="cursor:pointer" type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
