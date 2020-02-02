@@ -9,6 +9,9 @@
     <li><a href="">Home</a></li>
     <li><a href="">About</a></li>
     <li><a href="">Login</a></li>
+    @if(auth()->check())
+        <li><a>{{ auth()->user()->username }}</a></li>
+    @endif
 </ul>
 
 <div class="container">
