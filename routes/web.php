@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'Controller@show');
+Route::post('/', 'PostsController@store');
 
 Route::get('/register', 'RegistrationController@create');
 Route::post('/register', 'RegistrationController@store');

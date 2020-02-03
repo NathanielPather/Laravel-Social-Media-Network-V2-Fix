@@ -4,29 +4,26 @@
 
 @section('form')
     @if(auth()->check())
-        <form method="POST" action="{{ url('/') }}">
-
+        <form method="POST" action="/">
             {{ csrf_field() }}
-
             <div class="form-group">
-                <label>User:</label>
-                <input type="text" name="user" placeholder="Enter your username">
-                @if ($errors->has('user'))
-                    <span>{{ $errors->first('user') }}</span>
-                @endif
+                <label for="title">Title:</label>
+                <input type="text" class="form-control" id="title" name="title" placeholder="Enter a title">
             </div>
 
             <div class="form-group">
-                <label>Post:</label>
-                <input type="text" name="post" placeholder="Enter a post">
-                @if ($errors->has('post'))
-                    <span>{{ $errors->first('post') }}</span>
-                @endif
+                <label for="post">Post:</label>
+                <input type="text" class="form-control" id="post" name="post" placeholder="Enter your post">
             </div>
 
             <div class="form-group">
-                <button>Submit</button>
+                <input type="hidden" class="form-control" id="user_id" name="user_id" value={{ Auth::User()->id }}>
             </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            @include('layouts.partials.formerrors')
         </form>
     @else
         <p>You must be logged in to create a post.</p>
