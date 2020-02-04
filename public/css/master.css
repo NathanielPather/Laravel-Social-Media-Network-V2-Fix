@@ -35,6 +35,24 @@ li a {
     border: solid green 2px;
 }
 
+.form-group {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 40px;
+}
+
+.form-group > label {
+    flex: 2;
+}
+
+.form-group > input {
+    flex: 2;
+}
+
+.form-group-post {
+    margin: 10px 10px;
+}
+
 div > pre {
     margin: 20px 40px;
     background-color: #dddddd;

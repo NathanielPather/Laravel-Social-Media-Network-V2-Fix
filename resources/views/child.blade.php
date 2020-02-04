@@ -6,21 +6,21 @@
     @if(auth()->check())
         <form method="POST" action="/">
             {{ csrf_field() }}
-            <div class="form-group">
+            <div class="form-group-post">
                 <label for="title">Title:</label>
                 <input type="text" class="form-control" id="title" name="title" placeholder="Enter a title">
             </div>
 
-            <div class="form-group">
+            <div class="form-group-post">
                 <label for="post">Post:</label>
                 <input type="text" class="form-control" id="post" name="post" placeholder="Enter your post">
             </div>
 
-            <div class="form-group">
+            <div class="form-group-post">
                 <input type="hidden" class="form-control" id="user_id" name="user_id" value={{ Auth::User()->id }}>
             </div>
 
-            <div class="form-group">
+            <div class="form-group-post">
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
             @include('layouts.partials.formerrors')
