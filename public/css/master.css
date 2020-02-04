@@ -21,17 +21,17 @@ li a {
 }
 
 .col-1 {
-    flex: 1;
+    flex: 2;
     border: solid red 2px;
 }
 
 .col-2 {
-    flex: 10;
+    flex: 8;
     border: solid blue 2px;
 }
 
 .col-3 {
-    flex: 1;
+    flex: 2;
     border: solid green 2px;
 }
 
