@@ -71,7 +71,7 @@ div > pre > #timestamp {
 div > pre > #post {
     margin: 0 40px;
     font-size: 24px;
-    word-break: break-all;
+    word-break: break-word;
     white-space: normal;
 }
 
