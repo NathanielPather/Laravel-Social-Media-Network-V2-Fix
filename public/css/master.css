@@ -1,4 +1,4 @@
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,13 +6,33 @@ ul {
     background-color: #dddddd;
 }
 
-li {
+.nav li {
     float: left;
 }
 
-li a {
+.nav li a {
     display: block;
     padding: 8px;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.alert ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.alert li {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    margin: 10px 10px;
 }
 
 .container {

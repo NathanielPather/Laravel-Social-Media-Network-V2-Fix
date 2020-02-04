@@ -13,7 +13,7 @@ class SessionsController extends Controller
     public function store() {
         if(auth()->attempt(request(['username', 'password'])) == false) {
             return back()->withErrors([
-                'message' => 'The user or password is incorrect, please try again'
+                'message' => 'The username or password is incorrect, please try again'
             ]);
         }
 

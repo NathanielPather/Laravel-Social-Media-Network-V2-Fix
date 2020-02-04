@@ -5,15 +5,17 @@
 </head>
 
 <body>
-<ul>
-    @if(auth()->check())
-        <li><a>Hi {{ auth()->user()->username }}</a></li>
-        <li><a href="/logout">Logout</a></li>
-    @else
-        <li><a href="/login">Login</a></li>
-        <li><a href="register">Register</a></li>
-    @endif
-</ul>
+<div class="nav">
+    <ul>
+        @if(auth()->check())
+            <li><a>Hi {{ auth()->user()->username }}</a></li>
+            <li><a href="/logout">Logout</a></li>
+        @else
+            <li><a href="/login">Login</a></li>
+            <li><a href="register">Register</a></li>
+        @endif
+    </ul>
+</div>
 
 <div class="container">
     <div class="col-1">
