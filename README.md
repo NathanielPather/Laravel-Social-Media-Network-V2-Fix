@@ -1,13 +1,10 @@
 <h1>Social Media Website - Remake of University Assignment</h1>
 
 <h2>About</h2>
-This is a remake of a social media website made for my intelligent media systems web developer course at university. This was a second year course that pushed us past simple HTML, CSS, and JS, by exploring more useful frameworks to speed up production and achieve more complex functionality.
+This is a remake of a social media website made for my intelligent media systems web developer course at university. This was a second year course that pushed us past simple HTML, CSS, and JS, by exploring more useful frameworks to speed up production and achieve more complex functionality. This project can be thought of as a replication of Facebook.
 
 
-This project can be thought of as a replication of Facebook.
-
-
-My original assessment was made in laravel 4.2 which is no longer supported. It also seems that the original project has missing files. Due to this I have remade the project in laravel 5.8
+My original assessment was made in laravel 4.2 which is no longer supported. It also seems that the original project has missing files. Due to this I have remade the project in laravel 5.8.
 
 <h2>Skills Used</h2>
 <ul>
