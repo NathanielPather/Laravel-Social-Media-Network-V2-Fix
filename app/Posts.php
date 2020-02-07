@@ -10,7 +10,8 @@ class Posts extends Model
         'title', 'post', 'user_id',
     ];
 
-    public function user() {
+    public function user()
+    {
         return $this->belongsTo('App\User');
     }
 }
