@@ -14,11 +14,13 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function posts() {
+    public function posts()
+    {
         return $this->hasMany('App\Posts');
     }
 
-    public function setPasswordAttribute($password) {
+    public function setPasswordAttribute($password)
+    {
         $this->attributes['password'] = bcrypt($password);
     }
 }
