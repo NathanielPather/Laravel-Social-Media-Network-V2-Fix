@@ -19,14 +19,26 @@ My original assessment was made in laravel 4.2 which is no longer supported. It 
   <li>Laravel - 5.8</li>
 </ul>
 
-<h2>Live Demo</h2>
-<ul>
-  <li>http://138.197.210.59/</li>
-  <li>Feel free to make your own account and post some data. Please take care in what you post however as others may see it</li>
-  <li>Username: Nathaniel</li>
-  <li>Password: password</li>
-  <li>Uppercase N, lowercase p</li>
-</ul>
+<h2>Demo</h2>
+  Home Page
+  <br>
+  
+  ![Home Page](https://i.imgur.com/wSXSv5h.png)
+  
+  Register User Page
+    <br>
+  
+  ![Register User](https://i.imgur.com/GS055EG.png)
+  
+  Create Post Form
+    <br>
+  
+  ![Create Post](https://i.imgur.com/LgYQi6l.png)
+  
+  Displayed Post
+    <br>
+  
+  ![IDisplayed Post](https://i.imgur.com/J74XzDR.png)
 
 <h2>Features</h2>
 <ul>
