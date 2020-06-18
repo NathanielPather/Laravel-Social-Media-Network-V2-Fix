@@ -20,18 +20,22 @@ My original assessment was made in laravel 4.2 which is no longer supported. It 
 </ul>
 
 <h2>Demo</h2>
+
   Home Page
   <br>
   
   ![Home Page](https://i.imgur.com/wSXSv5h.png)
+  
   Register User Page
     <br>
   
   ![Register User](https://i.imgur.com/GS055EG.png)
+  
   Create Post Form
     <br>
   
   ![Create Post](https://i.imgur.com/LgYQi6l.png)
+  
   Displayed Post
     <br>
   
